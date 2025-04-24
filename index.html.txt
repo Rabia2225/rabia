@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rabia N - Digital Marketing Portfolio</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<style>
+/* Reset & Base Styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+line-height: 1.6;
+color: #333;
+background-color: #f4f4f4;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+/* Container */
+.container {
+width: 90%;
+max-width: 1200px;
+margin: auto;
+}
+
+/* Header / Hero */
+header {
+background: linear-gradient(135deg, #4facfe, #00f2fe);
+color: #fff;
+padding: 40px 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+header h1 {
+font-size: 2.5em;
+margin-bottom: 10px;
+}
+
+header p {
+font-size: 1.2em;
+margin-bottom: 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 24px;
+margin: 10px;
+background-color: #fff;
+color: #4facfe;
+border-radius: 25px;
+font-weight: 600;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+background-color: #00f2fe;
+color: #fff;
+}
+
+/* Navigation */
+nav {
+position: sticky;
+top: 0;
+background: #fff;
+display: flex;
+justify-content: center;
+padding: 10px 0;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+z-index: 999;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+}
+
+nav li {
+margin: 0 15px;
+}
+
+nav a {
+font-weight: 600;
+color: #333;
+transition: color 0.3s;
+}
+
+nav a:hover {
+color: #4facfe;
+}
+
+/* Sections */
+section {
+padding: 60px 20px;
+background-color: #fff;
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* About */
+.about {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.about img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 20px;
+border: 4px solid #4facfe;
+}
+
+.about h2 {
+margin-bottom: 15px;
+font-size: 2em;
+color: #333;
+}
+
+.about p {
+max-width: 700px;
+font-size: 1.1em;
+}
+
+/* Skills & Interests */
+.skills {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+gap: 20px;
+margin-top: 20px;
+}
+
+.skill-card {
+background-color: #f9f9f9;
+padding: 20px;
+border-radius: 8px;
+text-align: center;
+transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.skill-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.skill-card i {
+font-size: 2em;
